@@ -8,9 +8,9 @@ import joblib
 data = pd.read_csv("dataset/heart.csv")
 # print(data.head())
 
-features = ['age', 'sex', 'cp', 'thal', 'trestbps', 'thalach', 'fbs']
+FEATURES = ['age', 'sex', 'cp', 'thal', 'trestbps', 'thalach', 'fbs']
 
-X = data[features]
+X = data[FEATURES]
 Y = data['target']
 
 # print(X.head())
