@@ -1,10 +1,11 @@
-##Steps for CMD
-
+Steps for CMD
+==================
+ 
 > Clone the repo
 
-> run command `Script\activate`
+> run command `pip install -r requirement.txt` which install required packages
 
-> run command `pip install -r requirement.txt`
+> run command `Script\activate` to activate virtual environment.
 
 > run model_generator.py `py model_generator.py`
 
