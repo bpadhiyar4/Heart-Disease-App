@@ -3,7 +3,7 @@ Steps for CMD
 -> Clone the repo
 
 -> run command
-    Script\activate
+    <cmd>Script\activate</cmd>
 
 -> run command
     pip install -r requirement.txt
